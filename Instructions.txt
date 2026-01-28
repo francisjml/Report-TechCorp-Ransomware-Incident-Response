@@ -1,0 +1,41 @@
+🌱 How to Start This Project
+This exercise focuses on developing a Ransomware Incident Response Plan using the NIST cybersecurity framework, based on the case study of a fictional company called TechCo. The areas of identification, protection, detection, response, and recovery will be explored in the context of a ransomware attack.
+
+🔍 Case Example: TechCo Under Ransomware Attack
+The fictional company TechCo, dedicated to providing cloud services and managing sensitive customer data, has fallen victim to a ransomware attack.
+
+Incident Description:
+Origin of the Attack: An employee at TechCo received a phishing email that appeared legitimate, containing a malicious attachment disguised as an invoice. The employee downloaded the file, allowing attackers to install ransomware on TechCo's internal network.
+
+Propagation: The ransomware quickly spread to several critical servers. The affected systems include:
+
+The file server, where essential documents and data for daily operations are stored.
+The customer database, which contains sensitive personal and financial information.
+The internal backup systems that, unfortunately, were also located within the compromised network.
+Impact of the Attack: Files were encrypted, and the company received a message demanding payment of 50 Bitcoins (equivalent to over $1,000,000) for the decryption key. The attackers threatened to permanently delete all files if the ransom was not paid within 72 hours.
+
+Additional Issues:
+
+The network lacked proper segmentation, allowing the ransomware to affect both production systems and backups.
+There was no early alert protocol or real-time monitoring systems, so the ransomware's spread was not detected until employees began to notice a lack of access to files.
+Efforts to restore systems from backups failed, as these were also encrypted by the ransomware.
+Company Request:
+The management of TechCo seeks to develop a formal response plan to prevent similar incidents from occurring in the future and to mitigate the impact of future attacks.
+
+📝 Instructions
+For the report, consider the following items.
+
+Identification: Identify the critical assets of TechCo that have been affected or could have been targeted in the attack. Consider the key systems for the company’s operations and assess the potential vulnerabilities that facilitated the attack.
+
+Protection: Describe the preventive measures that TechCo should have implemented to protect itself from the attack. Evaluate which security policies and controls would have mitigated or prevented the spread of the ransomware.
+
+Detection: Provide methods and tools that TechCo could have used to detect the ransomware attack in its early stages. Consider how an early warning protocol could have improved the detection of the incident.
+
+Response: Develop a detailed plan to respond to the ransomware attack in TechCo. Define the steps the team should follow once the incident is detected. Assign clear roles and responsibilities to the response team and specify how they should communicate both internally and externally.
+
+Recovery: Describe the steps TechCo should take to restore systems and data affected by the ransomware attack. Make sure to include business continuity plans during and after recovery.
+
+Continuous Improvement: Propose a method to assess the effectiveness of the response plan after the incident. Consider how the lessons learned can be integrated into future improvements of the plan.
+
+📦 How to submit this project?
+Submit a report covering each of the areas mentioned, aligned with the five core functions of the NIST Cybersecurity Framework: Identification, Protection, Detection, Response, and Recovery.
